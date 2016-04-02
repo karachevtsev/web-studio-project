@@ -16,6 +16,11 @@
     background: #fff;
 }
 
+.portfolio__item-link:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 .portfolio__item:nth-child(3n) {
     margin-right: 0;
 }
