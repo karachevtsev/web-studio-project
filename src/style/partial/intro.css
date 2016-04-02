@@ -1,0 +1,8 @@
+.intro {
+    padding-top: 290px;
+    text-align: center;
+    color: #fff;
+    height: 700px;
+    background: #222 url(../../img/home__bg.jpg) no-repeat center bottom;
+    background-size: cover;
+}

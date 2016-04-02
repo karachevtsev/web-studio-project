@@ -16,3 +16,27 @@
     float: right;
     padding-top: 5px;
 }
+
+.navigation__item {
+    float: left;
+    margin-right: 40px;
+}
+
+.navigation__item:last-child {
+    margin-right: 0;
+}
+
+.navigation__link {
+    text-transform: uppercase;
+    font: 14px Arial, sans-serif;
+    color: #fff;
+}
+
+.navigation__link_active {
+    color: #f4c936;
+}
+
+.navigation__link:hover {
+    color: #f4c936;
+    transition: color 0.5s ease-out;
+}
