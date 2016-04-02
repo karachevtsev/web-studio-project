@@ -1,0 +1,21 @@
+.clients {
+    padding: 60px 0;
+}
+
+.clients__brand {
+    float: left;
+}
+
+.clients__brand {
+    margin-right: 40px;
+}
+
+.clients__brand:last-child {
+    margin-right: 0;
+}
+
+.clients__image-centeredd {
+    margin: 0 auto;
+    vertical-align: middle
+}
+
