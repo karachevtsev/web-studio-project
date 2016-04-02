@@ -1,0 +1,18 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    top: 20px;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.navigation {
+    float: right;
+    padding-top: 5px;
+}

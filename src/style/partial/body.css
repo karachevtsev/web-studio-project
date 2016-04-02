@@ -54,3 +54,8 @@ a, a:hover {
 .clearfix:after {
     clear: both;
 }
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
