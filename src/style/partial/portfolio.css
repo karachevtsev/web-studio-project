@@ -1,11 +1,14 @@
-.section_gray {
-    background: #f7f7f7;
+.portfolio__item-title {
+    margin-bottom: 10px;
+    font: bold 18px/32px Arial, sans-serif;
+    color: #222;
 }
 
-.portfolio__item-title {
-  margin-bottom: 10px;
-  font: bold 18px/32px Arial, sans-serif;
-  color: #222;
+.portfolio__item-link,
+.portfolio__item-description {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #777;
 }
 
 .portfolio__item {
@@ -31,13 +34,5 @@
     margin-bottom: 0;
 }
 
-.portfolio__item-link,
-.portfolio__item-description {
-    display: inline-block;
-    margin-bottom: 25px;
-    color: #777;
-}
 
-.portfolio__item-title {
-    margin-bottom: 4px;
-}
+
