@@ -12,9 +12,16 @@
     float: left;
 }
 
+.logo__link {
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fed136;
+}
+
 .navigation {
     float: right;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 .navigation__item {

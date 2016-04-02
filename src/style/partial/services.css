@@ -1,0 +1,43 @@
+.section {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.section__title {
+    margin-bottom: 10px;
+    font: bold 40px/40px Arial, sans-serif;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.section__description {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #777;
+}
+
+.section-row {
+    padding-top: 70px;
+}
+
+.services__item {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+.text-primary {
+    color: #fed136;
+}
+
+.services__item-title {
+  margin-bottom: 10px;
+  font: bold 18px/18px Arial, sans-serif;
+  color: #222;
+}
+
+.services__item-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #777;
+}
