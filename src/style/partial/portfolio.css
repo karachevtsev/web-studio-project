@@ -1,0 +1,38 @@
+.section_gray {
+    background: #f7f7f7;
+}
+
+.portfolio__item-title {
+  margin-bottom: 10px;
+  font: bold 18px/32px Arial, sans-serif;
+  color: #222;
+}
+
+.portfolio__item {
+    float: left;
+    width: 31%;
+    margin-right: 3.5%;
+    margin-bottom: 50px;
+    background: #fff;
+}
+
+.portfolio__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.portfolio__item:nth-last-child(1),
+.portfolio__item:nth-last-child(2),
+.portfolio__item:nth-last-child(3) {
+    margin-bottom: 0;
+}
+
+.portfolio__item-link,
+.portfolio__item-description {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #777;
+}
+
+.portfolio__item-title {
+    margin-bottom: 4px;
+}

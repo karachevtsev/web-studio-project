@@ -31,13 +31,13 @@
 }
 
 .services__item-title {
-  margin-bottom: 10px;
-  font: bold 18px/18px Arial, sans-serif;
-  color: #222;
+    margin-bottom: 10px;
+    font: bold 18px/18px Arial, sans-serif;
+    color: #222;
 }
 
 .services__item-text {
-  font-size: 18px;
-  line-height: 24px;
-  color: #777;
+    font-size: 18px;
+    line-height: 24px;
+    color: #777;
 }
