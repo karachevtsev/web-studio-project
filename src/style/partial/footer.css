@@ -1,0 +1,40 @@
+.footer {
+    padding-bottom: 70px;
+    font: bold 14px Arial, sans-serif;
+    text-align: center;
+}
+
+.copyright,
+.social,
+.quicklinks {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.copyright,
+.social_right-marg {
+    margin-right: 150px;
+}
+
+.copyright__text {
+    color: #555;
+}
+
+.quicklinks__item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.quicklinks:last-child {
+    margin-right: 0px;
+}
+
+.quicklinks__link {
+    color: #fed136;
+
+}
+
+.quicklinks__link:hover {
+    text-decoration: underline;
+}

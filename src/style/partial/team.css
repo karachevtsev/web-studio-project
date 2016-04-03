@@ -29,7 +29,7 @@
     color: #777;
 }
 
-.social {
+.social__list {
     font-size: 0;
 }
 
@@ -39,11 +39,12 @@
     margin-right: 10px;
 }
 
-.social__item:nth-last-child {
+.social__item:last-child {
     margin-right: 0px;
 }
 
 .social__link {
+    text-align: center;
     display: block;
     background-color: #222222;
     height: 40px;
@@ -58,4 +59,5 @@
 
 .social__link:hover {
     background: #fed136;
+    transition: background 0.5s ease-out;
 }

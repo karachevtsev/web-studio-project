@@ -29,6 +29,7 @@
 }
 
 .section_black {
-    background: #222 url(../../img/map-image.png) no-repeat right;
+    background: #222 url(../../img/map-image-2.png) no-repeat center bottom;
+    background-size: cover;
 }
 
