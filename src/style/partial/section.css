@@ -10,6 +10,10 @@
     text-transform: uppercase;
 }
 
+.section__title_white {
+    color: #fff;
+}
+
 .section__description {
     margin-bottom: 10px;
     font-size: 16px;
@@ -23,3 +27,8 @@
 .section_gray {
     background: #f7f7f7;
 }
+
+.section_black {
+    background: #222 url(../../img/map-image.png) no-repeat right;
+}
+

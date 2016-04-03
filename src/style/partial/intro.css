@@ -20,21 +20,3 @@
     font: 40px/40px Arial, sans-serif;
     text-transform: none;
 }
-
-.intro__button {
-    display: inline-block;
-    padding: 20px 30px;
-    font: bold 24px/24px Arial, sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    background: #fed136;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.intro__button:hover {
-    background: #e2b51b;
-    color: #fff;
-    padding: 20px 55px;
-    transition: All 0.5s ease-out;
-}

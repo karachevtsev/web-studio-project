@@ -1,0 +1,59 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.left,
+.right {
+    width: 45%;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #222;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.contact-form input[type="text"] {
+    height: 50px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    border: none;
+    height: 210px;
+    resize: none;
+}
+
+.contact-form input::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #bbb;
+}
+
+.contact-form input:-moz-placeholder {
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #bbb;
+}
+
+.contact-form textarea::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #bbb;
+}
+
+.contact-form textarea:-moz-placeholder {
+    text-transform: uppercase;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #bbb;
+}
