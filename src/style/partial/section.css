@@ -1,6 +1,7 @@
 .section {
     padding: 120px 0;
     text-align: center;
+    min-height: 900px;
 }
 
 .section__title {

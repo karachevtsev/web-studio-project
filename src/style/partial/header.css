@@ -7,6 +7,14 @@
     padding: 20px 0;
 }
 
+.header_fixed {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 7, 0, 0.8);
+    padding: 10px 0;
+    z-index: 100;
+}
+
 .logo {
     float: left;
 }
@@ -25,7 +33,7 @@
 
 .navigation__item {
     float: left;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 .navigation__item:last-child {
@@ -40,6 +48,7 @@
 
 .navigation__link_active {
     color: #f4c936;
+    border-bottom: 2px solid  #f4c936;
 }
 
 .navigation__link:hover {
