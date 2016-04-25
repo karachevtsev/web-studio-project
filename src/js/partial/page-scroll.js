@@ -2,13 +2,13 @@ $(document).ready(function() {
     var headerHeight = $('intro').height();
     $(".navigation__link").click(function(e) {
         e.preventDefault();
-        var offsetTop = $("#"+$(this).data("target")).offset().top - headerHeight;
-        $('html, body').animate({scrollTop: offsetTop}, 1000);
+        var offsetTop = $( "#"+$(this).data("target") ).offset().top - headerHeight;
+        $('html, body').animate( {scrollTop: offsetTop}, 1000 );
     });
     $(document).scroll(function() {
         var offsets = [];
         $('.navigation__link').each(function(index, element) {
-            offsets.push($("#" + $(element).data('target')).offset().top);
+            offsets.push( $("#" + $(element).data('target') ).offset().top);
         });
         offsets.push( $(document).height() );
         var docScroll = $(document).scrollTop() + headerHeight + $(window).height() / 5;

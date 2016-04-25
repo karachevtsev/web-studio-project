@@ -13,7 +13,7 @@
 
 .copyright,
 .social_right-marg {
-    margin-right: 150px;
+    margin-right: 130px;
 }
 
 .copyright__text {
@@ -38,3 +38,4 @@
 .quicklinks__link:hover {
     text-decoration: underline;
 }
+
